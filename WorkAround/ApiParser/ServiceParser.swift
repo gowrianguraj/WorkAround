@@ -12,6 +12,7 @@ import Foundation
 class ServiceParser: NSObject {
 
     static func DoNetworkCall<T:Codable>(view:UIView,url:String,parameter:[String:AnyObject],completion:@escaping(T)->())
+        
     {
         let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
         activityIndicator.color = UIColor.orange

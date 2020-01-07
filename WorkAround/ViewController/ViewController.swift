@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController,UITableViewDataSource {
     
     @IBOutlet var FeedTable: UITableView!
+    
     var albumModels:[AlbumModels] = []
     
     struct instanceStruct {

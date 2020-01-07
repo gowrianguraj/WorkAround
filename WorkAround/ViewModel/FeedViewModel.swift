@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 struct AlbumModels {
     let albumId:Int?
     let id:Int?

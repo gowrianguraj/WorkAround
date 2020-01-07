@@ -16,6 +16,7 @@ struct AlbumObject:Codable {
     let url:String?
     let thumbnailUrl:String?
     
+    
     enum CodingsKey:String,CodingKey {
         case albumId = "albumId"
         case id = "id"
